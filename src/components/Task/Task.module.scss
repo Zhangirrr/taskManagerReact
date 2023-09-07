@@ -1,0 +1,42 @@
+@import "~/src/styles/variables";
+
+.task{
+    position: relative;
+    min-height: 129px;
+    height: 100%;
+    box-shadow: 0 0 8px;
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    left: 70px;
+}
+
+.date{
+}
+
+.bottomPart{
+    align-self: flex-end;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+}
+.controlPanel{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+.icon{
+    background-color: transparent;
+    border: none;
+    transition: 0.3s;
+
+    &:hover{
+        color: $main-color;
+        transform: translateY(-2px);
+    }
+}
